@@ -22,3 +22,4 @@ This was written and tested on a Nexus 5X AVD running Nougat on an Ubuntu Linux 
 **TIP: Superuser may not always persist after reboot, to fix:**
 1. From a root shell, start `su --daemon&`
 1. Root should now work.
+1. Optional: Look for the temporary emulator system image; you can back this up and use it as a patched system.
