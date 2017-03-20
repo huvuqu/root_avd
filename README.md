@@ -12,6 +12,7 @@ This was written and tested on a Nexus 5X AVD running Nougat on an Ubuntu Linux 
 1. Restart `adbd` as root and remount system as writable: `adb root && adb remount`
 1. Install `Superuser.apk`: `adb install SuperSU/common/Superuser.apk`
 1. Push `su` and update permissions: you will have to pick the corresponding architecture `$ARCH`. `adb push SuperSU/$ARCH/su /system/xbin/su`, then update permissions: `adb shell  chmod 0755 /system/xbin/su`
+1. Set SELinux Permissive: `adb shell setenforce 0`
 1. Install SuperSU's `su` to system: `adb shell su --install`
 1. Run SuperSU's `su` as daemon. `adb shell su --daemon&`
 1. Finally, open the SuperSU app on the device, and it will tell you the `su` binary needs to be updated. Accept and use normal installation.
