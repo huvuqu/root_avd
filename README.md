@@ -18,3 +18,7 @@ This was written and tested on a Nexus 5X AVD running Nougat on an Ubuntu Linux 
 1. Finally, open the SuperSU app on the device, and it will tell you the `su` binary needs to be updated. Accept and use normal installation.
 1. Installation will fail. Don't reboot, just move on. It will still work.
 1. Congratulations! You now have a rooted AVD with SuperSU.
+
+**TIP: Superuser may not always persist after reboot, to fix:**
+1. From a root shell, start `su --daemon&`
+1. Root should now work.
