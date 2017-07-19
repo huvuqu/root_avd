@@ -1,11 +1,15 @@
 
-# root_avd
+# Rooting the Android Studio AVDs
 
-how to root Android AVD (and required files!)
+A quick guide on how to root Android Studio's Android AVDs (and required files!)
 
-Android SDK is required with an already created AVD. For this guide we will call it `RootAVD`.
+Required files can be found in this repository: <https://github.com/0xFireball/root_avd>
 
-This was written and tested on a Nexus 5X AVD running Nougat on an Ubuntu Linux host.
+You need the Android SDK and fresh new AVD. For this guide we will call it `RootAVD`.
+
+This was written and tested on a Nexus 5X AVD running Android 7.1 Nougat on an Ubuntu Linux host.
+This method _should_ work with a similar setup (Android Nougat) for the forseeable future, though
+future Android versions may complicate this process further.
 
 1. Start emulator `$SDK_PATH/emulator/emulator` with args `-avd RootAVD -writable-system -selinux disabled -qemu -enable-kvm`
 1. Wait for boot.
