@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "test",
+    "owner": "hungvq",
+    "description": "Ahihia"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "tesstst",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "acb"
+  }
+}
